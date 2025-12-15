@@ -15,29 +15,6 @@ header img {
     height: auto;
 }
 
-/* .sec {
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-}
-
-.lim {
-        background-color: aqua;
-        max-width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-}
-
-.sec div {
-    text-align: center;
-}
-
-.sec div img{
-    margin: 1px;
-    text-align: center;
-} */
-
 .sec p {
     font-weight: bold;
     font-size: medium;

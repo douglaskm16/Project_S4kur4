@@ -1,0 +1,35 @@
+.sec {
+    width: 100%;
+    text-align: center;
+}
+
+.lim {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5px;
+}
+
+.lim > div {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+}
+
+.sec p {
+    margin: 2px 0 10px 0;
+}

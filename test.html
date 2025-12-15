@@ -6,34 +6,48 @@
     <title>Sakura Rosas do Deserto</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-        .sec {
-            background-color: rgb(26, 255, 0);
-            width: 100%;
-            text-align: center;
-        }
-        
-        .lim {
-            background-color: blue;
-            width: 100%;
-            display: inline-block;
-            text-align: center;
-        }
+.sec {
+    width: 100%;
+    text-align: center;
+}
 
-        .lim div {
-            background-color: rgb(255, 217, 0);
-            display: inline-block;
-            width: 49.8%;
-            margin: 0;
-        }
+.lim {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 
-        img {
-            max-width: 100%;
-        }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+
+.lim > div {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+}
+
+.sec p {
+    margin: 2px 0 10px 0;
+}
+
+
     </style>
 </head>
 <body>
@@ -42,55 +56,64 @@
         <div class="sec">
             <div class="lim">
             <div>
-                <img src="img/20251208_170846.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251208_170846.jpg" alt="">
+                </div>
                 <p>812 GTS</p>
             </div>
             <div>
-                <img src="img/20251209_164344.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251209_164344.jpg" alt="">
+                </div>
                 <p>Julio Cesar</p>
             </div>
             <div>
-                <img src="img/20251209_163727.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251209_163727.jpg" alt="">
+                </div>
                 <p>Vanquish</p>
             </div>
-        <!-- </div>
-
-        <div class="sec"> -->
             <div>
-                <img src="img/20251209_165024.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251209_165024.jpg" alt="">
+                </div>
                 <p>Barbie Girl</p>
             </div>
             <div>
-                <img src="img/20251209_165205.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251209_165205.jpg" alt="">
+                </div>
                 <p>LM-12</p>
             </div>
             <div>
-                <img src="img/20251209_165440.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251209_165440.jpg" alt="">
+                </div>
                 <p>Enzo</p>
             </div>
-        <!-- </div>
-
-        <div class="sec"> -->
             <div>
-                <img src="img/20251209_165934.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251209_165934.jpg" alt="">
+                </div>
                 <p>Yuko</p>
             </div>
             <div>
-                <img src="img/20251209_170426.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/20251209_170426.jpg" alt="">
+                </div>
                 <p>Artura</p>
             </div>
             <div>
-                <img src="img/LM-40.jpg" alt="">
+                <div class="img-container">
+                    <img src="img/LM-40.jpg" alt="">
+                </div>
                 <p>LM-40</p>
             </div>
+            <div></div>
             </div>
         </div>
 
     </main>
-
-    <footer>
-        <p>&copy; 2025 - Douglas</p>
-    </footer>
 
 </body>
 </html>
