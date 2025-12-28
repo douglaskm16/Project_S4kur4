@@ -1,0 +1,43 @@
+.sec {
+    width: 100%;
+    text-align: center;
+}
+
+.lim {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+.lim > div {
+    /* background-color: aqua; */
+    display: inline-block;
+    margin: 0 -1px 20px -1px;
+    width: 32%;
+    vertical-align: top;
+}
+
+.lim > div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+    /* transition: transform 0.3s ease; */
+    transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.img-container:hover img {
+    transform: scale(1.1);
+}
+
+.lim p {
+    margin-top: 7px;
+}
